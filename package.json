@@ -1,0 +1,45 @@
+{
+  "name": "fastify_test_proj",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "dev": "npx nodemon"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@fastify/auth": "^4.3.0",
+    "@fastify/etag": "^4.2.0",
+    "@fastify/express": "^2.3.0",
+    "@fastify/jwt": "^7.2.0",
+    "@fastify/middie": "^8.3.0",
+    "@fastify/mongodb": "^7.0.0",
+    "@fastify/mysql": "^4.1.0",
+    "@fastify/redis": "^6.1.1",
+    "@fastify/type-provider-typebox": "^3.5.0",
+    "@getbrevo/brevo": "^1.0.1",
+    "@sinclair/typebox": "^0.31.1",
+    "ajv": "^8.12.0",
+    "ajv-errors": "^3.0.0",
+    "bcrypt": "^5.1.1",
+    "cors": "^2.8.5",
+    "fastify": "^4.21.0",
+    "fastify-plugin": "^4.5.1",
+    "fastify-slow-down": "^1.2.2",
+    "fastify-websocket": "^4.3.0",
+    "jsonwebtoken": "^9.0.1",
+    "sib-api-v3-sdk": "^8.5.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.5.1",
+    "nodemon": "^3.0.1",
+    "tsconfig-paths": "^4.2.0",
+    "typescript": "^5.1.6"
+  },
+  "engines": {
+    "node": "^12.22.0 || ^14.17.0 || >=16.0.0"
+  }
+}
