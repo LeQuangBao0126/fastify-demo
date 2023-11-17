@@ -3,7 +3,7 @@ const http = require('http');
 const os = require('os');
 
 const numberOfCores = os.cpus().length / 2
-
+//asdasda
 if (cluster.isMaster) {
     console.log(`Master ${process.pid} started`);
     for (let i = 0; i < numberOfCores; i++) {
